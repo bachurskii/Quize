@@ -1,0 +1,417 @@
+[
+  {
+    "category": "History",
+    "questions": [
+      {
+        "question": "What year did World War II begin?",
+        "answers": ["1923", "1939", "1945", "1914"],
+        "correctAnswer": "1939"
+      },
+      {
+        "question": "Who was the first President of the United States?",
+        "answers": [
+          "Thomas Jefferson",
+          "Abraham Lincoln",
+          "George Washington",
+          "Benjamin Franklin"
+        ],
+        "correctAnswer": "George Washington"
+      },
+      {
+        "question": "What ancient civilization built the pyramids?",
+        "answers": ["The Aztecs", "The Romans", "The Egyptians", "The Greeks"],
+        "correctAnswer": "The Egyptians"
+      },
+      {
+        "question": "During which period did the Renaissance primarily occur?",
+        "answers": [
+          "12th-13th Century",
+          "13th-14th Century",
+          "14th-17th Century",
+          "16th-19th Century"
+        ],
+        "correctAnswer": "14th-17th Century"
+      },
+      {
+        "question": "Which empire was ruled by Genghis Khan?",
+        "answers": [
+          "Ottoman Empire",
+          "Mongol Empire",
+          "Persian Empire",
+          "Roman Empire"
+        ],
+        "correctAnswer": "Mongol Empire"
+      },
+      {
+        "question": "What was the main cause of the Cold War?",
+        "answers": [
+          "Economic disparities",
+          "Religious conflicts",
+          "Ideological differences between the USA and the USSR",
+          "Territorial disputes in Europe"
+        ],
+        "correctAnswer": "Ideological differences between the USA and the USSR"
+      },
+      {
+        "question": "Who discovered America in 1492?",
+        "answers": [
+          "Christopher Columbus",
+          "Leif Erikson",
+          "Ferdinand Magellan",
+          "Marco Polo"
+        ],
+        "correctAnswer": "Christopher Columbus"
+      },
+      {
+        "question": "What event triggered the start of the American Revolution?",
+        "answers": [
+          "The signing of the Declaration of Independence",
+          "The Boston Tea Party",
+          "The Battle of Yorktown",
+          "The French and Indian War"
+        ],
+        "correctAnswer": "The Boston Tea Party"
+      },
+      {
+        "question": "Which treaty ended World War I?",
+        "answers": [
+          "Treaty of Versailles",
+          "Treaty of Tordesillas",
+          "Treaty of Nanking",
+          "Treaty of Paris"
+        ],
+        "correctAnswer": "Treaty of Versailles"
+      },
+      {
+        "question": "Who was the British Prime Minister during most of World War II?",
+        "answers": [
+          "Winston Churchill",
+          "Neville Chamberlain",
+          "Tony Blair",
+          "Margaret Thatcher"
+        ],
+        "correctAnswer": "Winston Churchill"
+      }
+    ]
+  },
+  {
+    "category": "Biology",
+    "questions": [
+      {
+        "question": "What is the basic unit of life?",
+        "answers": ["Atom", "Molecule", "Cell", "Organ"],
+        "correctAnswer": "Cell"
+      },
+      {
+        "question": "Which organ is responsible for pumping blood throughout the body?",
+        "answers": ["Liver", "Kidney", "Heart", "Lung"],
+        "correctAnswer": "Heart"
+      },
+      {
+        "question": "What is the process by which plants make their food?",
+        "answers": [
+          "Respiration",
+          "Photosynthesis",
+          "Fermentation",
+          "Digestion"
+        ],
+        "correctAnswer": "Photosynthesis"
+      },
+      {
+        "question": "What is DNA an acronym for?",
+        "answers": [
+          "Deoxyribonucleic Acid",
+          "Dioxygen Nuclear Acid",
+          "Dynamic Neural Acid",
+          "Diethyl Nitric Acid"
+        ],
+        "correctAnswer": "Deoxyribonucleic Acid"
+      },
+      {
+        "question": "Which vitamin is primarily obtained from sunlight exposure?",
+        "answers": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+        "correctAnswer": "Vitamin D"
+      },
+      {
+        "question": "What type of animal is a shark?",
+        "answers": ["Mammal", "Bird", "Fish", "Reptile"],
+        "correctAnswer": "Fish"
+      },
+      {
+        "question": "What is the powerhouse of the cell known as?",
+        "answers": [
+          "Nucleus",
+          "Mitochondria",
+          "Ribosome",
+          "Endoplasmic Reticulum"
+        ],
+        "correctAnswer": "Mitochondria"
+      },
+      {
+        "question": "What do biologists study?",
+        "answers": ["Stars", "Chemicals", "Living organisms", "Minerals"],
+        "correctAnswer": "Living organisms"
+      },
+      {
+        "question": "Which is the largest organ of the human body?",
+        "answers": ["Heart", "Skin", "Liver", "Kidney"],
+        "correctAnswer": "Skin"
+      },
+      {
+        "question": "What type of blood cells are responsible for immunity?",
+        "answers": ["Red cells", "Platelets", "White cells", "Plasma cells"],
+        "correctAnswer": "White cells"
+      }
+    ]
+  },
+  {
+    "category": "Geography",
+    "questions": [
+      {
+        "question": "What is the largest continent by area?",
+        "answers": ["Africa", "Europe", "Asia", "North America"],
+        "correctAnswer": "Asia"
+      },
+      {
+        "question": "Which river is the longest in the world?",
+        "answers": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+        "correctAnswer": "Nile"
+      },
+      {
+        "question": "What is the capital city of Japan?",
+        "answers": ["Beijing", "Seoul", "Tokyo", "Bangkok"],
+        "correctAnswer": "Tokyo"
+      },
+      {
+        "question": "Which country has the most population?",
+        "answers": ["India", "China", "USA", "Ukraine"],
+        "correctAnswer": "China"
+      },
+      {
+        "question": "What natural phenomenon is measured by the Richter scale?",
+        "answers": [
+          "Tornadoes",
+          "Earthquakes",
+          "Tsunamis",
+          "Volcanic eruptions"
+        ],
+        "correctAnswer": "Earthquakes"
+      },
+      {
+        "question": "Which desert is known as the largest hot desert in the world?",
+        "answers": ["Mojave", "Sahara", "Atacama", "Gobi"],
+        "correctAnswer": "Sahara"
+      },
+      {
+        "question": "What is the longest mountain range in the world?",
+        "answers": ["Himalayas", "Andes", "Rocky Mountains", "Alps"],
+        "correctAnswer": "Andes"
+      },
+      {
+        "question": "Which ocean is the largest?",
+        "answers": ["Atlantic", "Indian", "Arctic", "Pacific"],
+        "correctAnswer": "Pacific"
+      },
+      {
+        "question": "What is the primary language spoken in Brazil?",
+        "answers": ["Spanish", "Portuguese", "French", "English"],
+        "correctAnswer": "Portuguese"
+      },
+      {
+        "question": "Which country is known for having the city of Venice?",
+        "answers": ["France", "Italy", "Spain", "Portugal"],
+        "correctAnswer": "Italy"
+      }
+    ]
+  },
+  {
+    "category": "Literature",
+    "questions": [
+      {
+        "question": "Who wrote 'Hamlet'?",
+        "answers": [
+          "Charles Dickens",
+          "William Shakespeare",
+          "Jane Austen",
+          "Mark Twain"
+        ],
+        "correctAnswer": "William Shakespeare"
+      },
+      {
+        "question": "What is the main theme of '1984' by George Orwell?",
+        "answers": ["Love", "War", "Totalitarianism", "Adventure"],
+        "correctAnswer": "Totalitarianism"
+      },
+      {
+        "question": "Which novel features the character Frodo Baggins?",
+        "answers": [
+          "Harry Potter",
+          "The Hobbit",
+          "The Lord of the Rings",
+          "Game of Thrones"
+        ],
+        "correctAnswer": "The Lord of the Rings"
+      },
+      {
+        "question": "What genre is 'To Kill a Mockingbird' by Harper Lee?",
+        "answers": [
+          "Science Fiction",
+          "Autobiography",
+          "Fantasy",
+          "Historical Fiction"
+        ],
+        "correctAnswer": "Historical Fiction"
+      },
+      {
+        "question": "Who wrote 'Pride and Prejudice'?",
+        "answers": [
+          "Emily Bronte",
+          "Virginia Woolf",
+          "Charlotte Bronte",
+          "Jane Austen"
+        ],
+        "correctAnswer": "Jane Austen"
+      },
+      {
+        "question": "What is the main setting of 'The Great Gatsby'?",
+        "answers": ["New York City", "Los Angeles", "New Orleans", "Chicago"],
+        "correctAnswer": "New York City"
+      },
+      {
+        "question": "Which book is known for the famous quote, 'Call me Ishmael.'?",
+        "answers": [
+          "Moby Dick",
+          "Great Expectations",
+          "Old Man and the Sea",
+          "Robinson Crusoe"
+        ],
+        "correctAnswer": "Moby Dick"
+      },
+      {
+        "question": "What is the fictional language created by J.R.R. Tolkien?",
+        "answers": ["Dothraki", "Klingon", "Elvish", "Na'vi"],
+        "correctAnswer": "Elvish"
+      },
+      {
+        "question": "Who wrote the poem 'The Raven'?",
+        "answers": [
+          "Edgar Allan Poe",
+          "Robert Frost",
+          "Walt Whitman",
+          "William Wordsworth"
+        ],
+        "correctAnswer": "Edgar Allan Poe"
+      },
+      {
+        "question": "Which book features a dystopian future ruled by 'Big Brother'?",
+        "answers": [
+          "Brave New World",
+          "1984",
+          "Fahrenheit 451",
+          "The Handmaid's Tale"
+        ],
+        "correctAnswer": "1984"
+      }
+    ]
+  },
+  {
+    "category": "Law",
+    "questions": [
+      {
+        "question": "What document is known as the supreme law of the United States?",
+        "answers": [
+          "Declaration of Independence",
+          "Bill of Rights",
+          "U.S. Constitution",
+          "Federalist Papers"
+        ],
+        "correctAnswer": "U.S. Constitution"
+      },
+      {
+        "question": "What is the legal principle of 'stare decisis'?",
+        "answers": [
+          "Rule by the people",
+          "Judgment as precedent",
+          "Separation of powers",
+          "Right to a fair trial"
+        ],
+        "correctAnswer": "Judgment as precedent"
+      },
+      {
+        "question": "Who has the authority to interpret laws in the United States?",
+        "answers": [
+          "The President",
+          "Congress",
+          "The Supreme Court",
+          "State Governments"
+        ],
+        "correctAnswer": "The Supreme Court"
+      },
+      {
+        "question": "What is considered a fundamental human right under international law?",
+        "answers": [
+          "Freedom of speech",
+          "Right to internet access",
+          "Right to free parking",
+          "Right to a private jet"
+        ],
+        "correctAnswer": "Freedom of speech"
+      },
+      {
+        "question": "What term is used for the party who initiates a lawsuit?",
+        "answers": ["Defendant", "Prosecutor", "Plaintiff", "Solicitor"],
+        "correctAnswer": "Plaintiff"
+      },
+      {
+        "question": "What does 'habeas corpus' guarantee?",
+        "answers": [
+          "Right to bear arms",
+          "Freedom of movement",
+          "Protection from illegal detention",
+          "Right to vote"
+        ],
+        "correctAnswer": "Protection from illegal detention"
+      },
+      {
+        "question": "Which law prohibits discrimination based on race, color, religion, sex, or national origin in the USA?",
+        "answers": [
+          "Civil Rights Act",
+          "Patriot Act",
+          "Affordable Care Act",
+          "Voting Rights Act"
+        ],
+        "correctAnswer": "Civil Rights Act"
+      },
+      {
+        "question": "What type of law is concerned with the punishment of those who commit crimes?",
+        "answers": [
+          "Civil Law",
+          "Criminal Law",
+          "Administrative Law",
+          "Constitutional Law"
+        ],
+        "correctAnswer": "Criminal Law"
+      },
+      {
+        "question": "What is the primary source of law in Islamic countries?",
+        "answers": [
+          "The Bible",
+          "The Constitution",
+          "Sharia Law",
+          "The Magna Carta"
+        ],
+        "correctAnswer": "Sharia Law"
+      },
+      {
+        "question": "What legal doctrine holds that a person is responsible for the damages their actions cause regardless of intent?",
+        "answers": [
+          "Actus Reus",
+          "Mens Rea",
+          "Strict Liability",
+          "Contributory Negligence"
+        ],
+        "correctAnswer": "Strict Liability"
+      }
+    ]
+  }
+]
