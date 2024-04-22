@@ -1,5 +1,4 @@
 import convict from "convict";
-
 const config = convict({
   PORT: {
     doc: "The port to bind",
