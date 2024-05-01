@@ -122,3 +122,13 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

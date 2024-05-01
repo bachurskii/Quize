@@ -14,6 +14,14 @@ const sessionSlice = createSlice({
       state.isLoading = true;
       state.error = null;
     });
+    builder.addCase(fetchSessionSliceAsync.fulfilled, (state, action) => {
+      state.user = action.payload;
+      state.isLoading = false;
+    });
+    builder.addCase(fetchSessionSliceAsync.rejected, (state) => {
+      state.isLoading = false;
+      state.error = true;
+    });
   },
 });
 export default sessionSlice.reducer;

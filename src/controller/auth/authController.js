@@ -11,7 +11,8 @@ class AuthController {
   }
 
   async loginJWT(req, res) {
-    console.log(req.body);
+    console.log(req, "dfdsf");
+
     const { email, password } = req.body;
     const user = await this.userServices.getUserByEmail(email);
     if (

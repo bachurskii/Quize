@@ -1,9 +1,15 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 const fetchSessionSliceAsync = createAsyncThunk(
   "session/fetchUser",
-  async () => {
+  async (formData) => {
     try {
-      const response = await fetch("");
+      const response = await fetch("http://localhost:8000/api/auth/login", {
+        method: "POST",
+        headers: {
+          "Content-type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
       if (!response.ok) {
         throw new Error("Something wrong");
       }

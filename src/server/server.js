@@ -28,14 +28,18 @@ class App {
     this.handleNotFound();
   }
 
-  initilatiaMiddlewar() {}
+  initilatiaMiddlewar() {
+    this.app.use(express.json());
+    this.app.use(express.urlencoded({ extended: true }));
+  }
+
   setupRoutes(controller) {
     // this.app.get("/", (req, res) => {
     //   res.send("Hello world");
     // });
 
     controller.forEach((elem) => {
-      console.log(elem.path);
+      console.log(elem.path, "hello");
       this.app.use(`/api${elem.path}`, elem.router);
     });
   }
