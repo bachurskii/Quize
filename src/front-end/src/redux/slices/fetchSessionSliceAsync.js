@@ -20,5 +20,15 @@ const fetchSessionSliceAsync = createAsyncThunk(
     }
   }
 );
+// const fetchSessionSliceSignUp = createAsyncThunk(
+//   "session/fetchUser",
+//   async (formData) => {
+//     try {
+//       const response = await fetch("http://localhost:8000/api/auth/")
+//     } catch (error) {
+//       return `${error}`;
+//     }
+//   }
+// );
 
 export default fetchSessionSliceAsync;
