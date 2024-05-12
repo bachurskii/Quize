@@ -1,5 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
-import fetchSessionSliceAsync from "./fetchSessionSliceAsync";
+import {
+  fetchSessionSliceAsync,
+  fetchSessionSliceSignUp,
+} from "./fetchSessionSliceAsync";
 
 const sessionSlice = createSlice({
   name: "session",
@@ -10,15 +13,27 @@ const sessionSlice = createSlice({
   },
   reducers: {},
   extraReducers: (builder) => {
-    builder.addCase(fetchSessionSliceAsync.pending, (state) => {
+    // builder.addCase(fetchSessionSliceAsync.pending, (state) => {
+    //   state.isLoading = true;
+    //   state.error = null;
+    // });
+    // builder.addCase(fetchSessionSliceAsync.fulfilled, (state, action) => {
+    //   state.user = action.payload;
+    //   state.isLoading = false;
+    // });
+    // builder.addCase(fetchSessionSliceAsync.rejected, (state) => {
+    //   state.isLoading = false;
+    //   state.error = true;
+    // });
+    builder.addCase(fetchSessionSliceSignUp.pending, (state) => {
       state.isLoading = true;
       state.error = null;
     });
-    builder.addCase(fetchSessionSliceAsync.fulfilled, (state, action) => {
+    builder.addCase(fetchSessionSliceSignUp.fulfilled, (state, action) => {
       state.user = action.payload;
       state.isLoading = false;
     });
-    builder.addCase(fetchSessionSliceAsync.rejected, (state) => {
+    builder.addCase(fetchSessionSliceSignUp.rejected, (state) => {
       state.isLoading = false;
       state.error = true;
     });

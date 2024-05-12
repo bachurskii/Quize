@@ -39,7 +39,6 @@ class App {
     // });
 
     controller.forEach((elem) => {
-      console.log(elem.path, "hello");
       this.app.use(`/api${elem.path}`, elem.router);
     });
   }
