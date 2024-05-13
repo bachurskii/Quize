@@ -12,9 +12,9 @@ function App() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000, // Change slides every 5 seconds
+    autoplaySpeed: 5000,
     pauseOnHover: true,
-    arrows: true, // Enable arrow navigation
+    arrows: true,
   };
   return (
     <div>

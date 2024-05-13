@@ -43,7 +43,7 @@ class App {
     });
   }
   serveStaticFiles() {
-    const pathToDist = join(this.__dirname, "../front-end/dist"); // Adjust the path according to your structure
+    const pathToDist = join(this.__dirname, "../front-end/dist");
     this.app.use(express.static(pathToDist));
   }
 
