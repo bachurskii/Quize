@@ -6,6 +6,7 @@ import SignIn from "../pages/SignIn/SignIn";
 import SignUp from "../pages/SignUp/SignUp";
 import PrivateRoute from "./privateRoute/priveteRoute";
 import NotFound from "../pages/NotFound/NotFound";
+import Rules from "../pages/Rules";
 const router = createBrowserRouter([
   {
     element: (
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
 
         // loader: teamLoader,
       },
+      {
+        path: "/rules",
+        element: <Rules />,
+      },
 
       {
         element: <PrivateRoute />,
@@ -47,10 +52,7 @@ const router = createBrowserRouter([
             path: "/quize/:category",
             // element:
           },
-          {
-            path: "/rules",
-            // element:
-          },
+
           {
             path: "/you-win",
             // element:

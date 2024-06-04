@@ -20,10 +20,7 @@ const Header = () => {
           >
             Quizzes
           </Link>
-          <Link
-            href="/how-to-play"
-            className="hover:text-gray-300 transition-colors"
-          >
+          <Link to="/rules" className="hover:text-gray-300 transition-colors">
             How to Play
           </Link>
           <Link
